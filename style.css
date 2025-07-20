@@ -1,0 +1,31 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+  text-align: center;
+  color: #1e3932;
+}
+#result {
+  margin-top: 20px;
+}
+.licence-card {
+  background-color: #e6f4ea;
+  padding: 20px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+.licence-card h2 {
+  margin: 0 0 10px;
+}
