@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  color: #111;
+}
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+header {
+  background: #006f3c;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+.card {
+  display: flex;
+  background: white;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.photo {
+  flex: 1;
+  background: #e2e8f0;
+  text-align: center;
+  padding: 1rem;
+}
+.photo img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+}
+.info {
+  flex: 2;
+  padding: 1rem;
+}
+.info h2 {
+  margin-top: 0;
+}
+.info p {
+  margin: 0.3rem 0;
+}
+.active {
+  color: green;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
